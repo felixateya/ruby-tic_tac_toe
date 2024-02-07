@@ -8,9 +8,9 @@ class Players
   end
   
   p 'Please enter your name and your marker'
-  player1 = Players.new(gets.chomp)
+  player1 = Players.new(gets.chomp, gets.chomp)
   p 'Please enter your 2nd Player name and your 2nd marker'
-  player2 = Players.new(gets.chomp)
+  player2 = Players.new(gets.chomp, gets.chomp)
   
   def your_position
     p 'enter your position'
